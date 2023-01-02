@@ -24,4 +24,4 @@ A recommendation for practice is to put the variable of primary interest as the 
 Output: "Sample distribution by plates can also be visualized (Figure 1). It shows that samples with different characteristics were distributed across batches with only small variations. The small variation is largely due to the trade off in block randomizing multiple variables. The last plot is the index of optimization steps versus value of the objective function. The blue diamond indicate the starting point, and the red diamond mark the final optimal setup. It is clear that final setup is more optimal than the starting setup." 
 
 
-<img src="https://raw.githubusercontent.com/foocheung/batching_samples/master/batchsamples.png">
+<img src="https://github.com/foocheung/batchingsamples/blob/main/batchsamples.png">
