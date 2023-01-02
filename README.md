@@ -1,4 +1,4 @@
-# library(batching_samples)
+# library(batchingsamples)
 
 ## Developer Foo Cheung 
 ## https://github.com/foocheung/batchingsamples
