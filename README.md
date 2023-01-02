@@ -1,10 +1,10 @@
-# batching_samples
+# library(batching_samples)
 
 ## Developer Foo Cheung 
 ## https://github.com/foocheung/batchingsamples
 ## foocheung@yahoo.com
 
-A simple Shiny app to help allocate samples into batches. This app uses functions from the R package OSAT. Using the Golem R package, an opinionated framework for building production-grade shiny applications.
+A simple Shiny app to help allocate samples into batches. This app uses functions from the R package OSAT, the Golem R package, an opinionated framework for building production-grade shiny applications.
 
 File format must be tab delimited and have column names, example can be seen here:
 
