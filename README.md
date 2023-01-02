@@ -1,7 +1,9 @@
 # batching_samples
 
 
-A simple Shiny app to help allocate samples into batches. This app uses functions from the R package OSAT. File format must be tab delimited and have column names, example can be seen here:
+A simple Shiny app to help allocate samples into batches. This app uses functions from the R package OSAT. Using the Golem R package, an opinionated framework for building production-grade shiny applications.
+
+File format must be tab delimited and have column names, example can be seen here:
 
 <pre>
 ID	SampleType	Race	AgeGrp
