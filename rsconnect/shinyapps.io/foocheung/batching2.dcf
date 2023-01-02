@@ -1,0 +1,13 @@
+name: batching2
+title: batching2
+username:
+account: foocheung
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7963138
+bundleId: 6688599
+url: https://foocheung.shinyapps.io/batching2/
+when: 1672628840.50865
+lastSyncTime: 1672628840.50866
+asMultiple: FALSE
+asStatic: FALSE
