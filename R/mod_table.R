@@ -83,7 +83,7 @@ mod_table_server <- function(input, output, session, file){  #,batches,sim){
 
  # output$text2 <- renderTable({
   sliderValues <- reactive({
-
+req(file$goButton())
       dff<-file$df()
   
     sbj_per_batch<-ceiling(nrow(dff)/file$integer())
