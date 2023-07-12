@@ -15,7 +15,6 @@ Imports:
     tidyr,
     readr,
     genefilter,
-    shinyauthr,
     rmarkdown,
     magrittr,
     shinydashboard,
