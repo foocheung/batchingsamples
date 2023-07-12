@@ -44,7 +44,8 @@ mod_dataInput_ui <- function(id){
  radioButtons(ns("sep"), "Separator",
                  choices = c(Comma = ",",
                              Tab = "\t"),
-                 selected = "\t")
+                 selected = "\t"),
+ actionButton(ns("goButton"), "Go!")
   )
 }
 
