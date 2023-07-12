@@ -75,6 +75,7 @@ mod_dataInput_server <- function(id){
 
     return(list(integer = reactive({input$integer}),
                 sim   = reactive({input$sim}),
+                goButton = reactive({input$goButton}),
                 df =datafile
                 )
            )
