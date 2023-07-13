@@ -112,6 +112,7 @@ output$text2 <- renderTable({
 
 
 output$qc<-renderImage({
+    req(file$goButton())
   #req(input$go)
     outfile <- tempfile(fileext='.png')
 
