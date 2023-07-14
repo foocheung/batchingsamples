@@ -14,7 +14,7 @@ app_ui <- function() {
     navbarPage(
       "Batch Your Samples Here",
       tabPanel(
-        "Load Data",
+        "Test Load Data",
         sidebarPanel(
           mod_dataInput_ui(
             "dataInput_ui_meta"
