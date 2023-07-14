@@ -120,12 +120,13 @@ output$qc<-renderImage({
     png(outfile, width=800, height=800)
 
     OSAT::QC(sliderValues()$gsetup)
-    dev.off()
+    #dev.off()
+    dev.list()
     # Return a list
     list(src = outfile)
 
 },
-deleteFile = TRUE)
+deleteFile = FALSE)
 
 
 
