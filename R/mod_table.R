@@ -111,22 +111,23 @@ output$text2 <- renderTable({
 })
 
 
-output$qc<-renderImage({
+output$qc<-renderPlot({
     req(file$goButton())
   #req(input$go)
-    outfile <- tempfile(fileext='.png')
+  #  outfile <- tempfile(fileext='.png')
 
     # Generate a png
-    png(outfile, width=800, height=800)
+  #  png(outfile, width=800, height=800)
 
     OSAT::QC(sliderValues()$gsetup)
     #dev.off()
-    dev.list()
+  #  dev.list()
     # Return a list
-    list(src = outfile)
+  #  list(src = outfile)
 
-},
-deleteFile = FALSE)
+})
+    #,
+#deleteFile = FALSE)
 
 
 
