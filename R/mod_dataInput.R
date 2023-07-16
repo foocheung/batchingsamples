@@ -65,10 +65,10 @@ mod_dataInput_server <- function(id){
     datafile <- reactive({
      # read.csv(userFile()$datapath, header=T, fill=TRUE, sep="\t")
       utils::read.table(userFile()$datapath,
-                        header = FALSE,
+                        header = TRUE,
                         sep = input$sep,
                         row.names = NULL,
-                        skip = 1,
+                       # skip = 1,
                         stringsAsFactors = FALSE)
 
     })
