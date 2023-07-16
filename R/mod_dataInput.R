@@ -33,8 +33,8 @@ mod_dataInput_ui <- function(id){
                          ".csv",
                          ".tsv"
             )
-    )
-    )),
+    ),
+    #)),
   #   Input: Select separator ----
   sliderInput(ns("integer"), "# of Batches:",
               min=2, max=100, value=2),
