@@ -14,7 +14,7 @@ app_ui <- function() {
    # navbarPage(
    #   "Batch Your Samples Here",
   shinyUI(pageWithSidebar(
-    "",
+   HTML("<CENTER><H2>Batching Samples"),
     tabPanel(
         "Test Load Data",
         sidebarPanel(
