@@ -11,19 +11,21 @@ app_ui <- function() {
     # Leave this function for adding external resources
    # golem_add_external_resources(),
     # List the first level UI elements here
-    navbarPage(
-      "Batch Your Samples Here",
-      tabPanel(
+   # navbarPage(
+   #   "Batch Your Samples Here",
+  shinyUI(pageWithSidebar(
+    "",
+    tabPanel(
         "Test Load Data",
         sidebarPanel(
           mod_dataInput_ui(
             "dataInput_ui_meta"
           ))),
         mainPanel(
-          tabsetPanel(
+        #  tabsetPanel(
             mod_table_ui("table_ui_1", "Meta Data")
 
-          )
+         # )
          )
         )
       )
