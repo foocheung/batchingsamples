@@ -24,7 +24,7 @@ mod_dataInput_ui <- function(id){
   tagList(
    # tabsetPanel(
     #  tabPanel(
-    shinydashboard::dashboardSidebar(
+  #  shinydashboard::dashboardSidebar(
       shinydashboard::sidebarMenu(id = "Options",
       fileInput(ns("id"), label="Upload",
               multiple = FALSE,
@@ -47,6 +47,7 @@ mod_dataInput_ui <- function(id){
                  selected = "\t"),
  actionButton(ns("goButton"), "Go!")
   )
+)
 }
 
 #' dataInput Server Functions
