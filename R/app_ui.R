@@ -7,7 +7,7 @@
 #'
 ## usethis::use_pipe()
 app_ui <- function() {
-  tagList(
+ # tagList(
     # Leave this function for adding external resources
    # golem_add_external_resources(),
     # List the first level UI elements here
