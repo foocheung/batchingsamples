@@ -30,3 +30,6 @@ Output: "Sample distribution by plates can also be visualized (Figure 1). It sho
 
 
 <img src="https://github.com/foocheung/batchingsamples/blob/main/batchsamples.png">
+
+
+<video src="https://github.com/foocheung/batchingsamples/raw/main/batching.niaidawsqa.net.mp4"></video>
