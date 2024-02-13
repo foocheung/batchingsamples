@@ -1,9 +1,3 @@
-# library(batchingsamples)
-
-## Developer Foo Cheung 
-## https://github.com/foocheung/batchingsamples
-## foocheung@yahoo.com
-
 A simple Shiny app to help allocate samples into batches. This app uses functions from the R package OSAT, the Golem R package, an opinionated framework for building production-grade shiny applications.
 
 File format must be tab delimited and have column names, example can be seen here:
@@ -29,10 +23,5 @@ A recommendation for practice is to put the variable of primary interest as the 
 Output: "Sample distribution by plates can also be visualized (Figure 1). It shows that samples with different characteristics were distributed across batches with only small variations. The small variation is largely due to the trade off in block randomizing multiple variables. The last plot is the index of optimization steps versus value of the objective function. The blue diamond indicate the starting point, and the red diamond mark the final optimal setup. It is clear that final setup is more optimal than the starting setup." 
 
 
-<img src="https://github.com/foocheung/batchingsamples/blob/main/batchsamples.png">
+<video src="https://github.com/foocheung/batchingsamples/assets/25374694/45780282-9a05-4414-a96b-e7c238ceb073"></video>
 
-## <video src="https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4"></video>
-<video src="https://www.guidejar.com/embed/dcea8b23-4d5c-4404-af32-996ee1de5305?type=1&controls=off" width="100%" height="100%" style="position:absolute;inset:0" allowfullscreen frameborder="0"></video>
-## https://github.com/foocheung/batchingsamples/blob/9aa033d0e0a99f943174acf9428a5fa78903bb0f/batching.niaidawsqa.net.mp4
-
-## <video src="https://user-images.githubusercontent.com/foocheung/batchingsamples/main/9aa033d0e0a99f943174acf9428a5fa78903bb0f/batching.niaidawsqa.net.mp4"></video>
