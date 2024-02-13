@@ -27,7 +27,8 @@ tabsetPanel(
              DT::dataTableOutput(ns('tab'))
     ),
     tabPanel("Info",
-             HTML('<br>
+              HTML('<iframe width="560" height="315" src="https://github.com/foocheung/batchingsamples/assets/25374694/45780282-9a05-4414-a96b-e7c238ceb073" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+              HTML('<br>
                     <p>A simple Shiny app to help allocate batches.
                       File format must be tab delimited and have column names, example can be seen below:
 
